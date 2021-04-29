@@ -126,3 +126,4 @@ select * from pedidos p2 where p2.id_cliente in(
 select id from clientes c where id < 3
 );
 
+select max(id) from clientes c;
